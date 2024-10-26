@@ -5,11 +5,11 @@
             "label": "build",
             "command": "cl.exe",
             "args": [
-                "/I", "C:/Users/roffio/Downloads/sfml-second-try/SFML-2.6.1/include", // Путь к заголовкам SFML
+                "/I", "${workspaceFolder}/SFML-2.6.1/include",
                 "${workspaceFolder}/src/main.cpp",
-                "/Fe:main.exe", // Название выходного файла
+                "/Fe:main.exe",
                 "/link",
-                "/LIBPATH:C:/Users/roffio/Downloads/sfml-second-try/SFML-2.6.1/lib", // Путь к библиотекам SFML
+                "/LIBPATH:${workspaceFolder}/SFML-2.6.1/lib",
                 "sfml-graphics.lib",
                 "sfml-window.lib",
                 "sfml-system.lib"
