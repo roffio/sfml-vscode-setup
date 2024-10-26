@@ -7,5 +7,5 @@ VScode setups to build/run sfml projects on Windows/Linux
 3. Run build task in vscode
 4. Enjoy
 
-[!IMPORTANT]
-By default this setup assumes you store your main.cpp in [main project folder]/src
+>[!IMPORTANT]
+>By default this setup assumes you store your main.cpp in [main project folder]/src
